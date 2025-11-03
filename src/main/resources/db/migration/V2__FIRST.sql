@@ -1,0 +1,122 @@
+INSERT INTO tb_catalog (ID, Name, Price) VALUES
+                                             (1, 'SUV', 4),
+                                             (2, 'SEDAN', 3),
+                                             (3, 'COUPE', 5),
+                                             (4, 'COMPACT', 1),
+                                             (5, 'PICKUP', 4);
+
+
+-- 20 Veículos para o Catálogo: SUV (catalog_id = 1)
+INSERT INTO tb_vehicle (Name, Model, Year, catalog_id) VALUES
+                                                           ('Jeep', 'Renegade', 2023, 1),
+                                                           ('Honda', 'HR-V', 2024, 1),
+                                                           ('Toyota', 'RAV4', 2022, 1),
+                                                           ('Hyundai', 'Creta', 2023, 1),
+                                                           ('Volkswagen', 'T-Cross', 2024, 1),
+                                                           ('Chevrolet', 'Tracker', 2022, 1),
+                                                           ('Ford', 'Bronco', 2023, 1),
+                                                           ('Nissan', 'Kicks', 2024, 1),
+                                                           ('BMW', 'X1', 2023, 1),
+                                                           ('Audi', 'Q3', 2022, 1),
+                                                           ('Mercedes-Benz', 'GLA 200', 2024, 1),
+                                                           ('Volvo', 'XC40', 2023, 1),
+                                                           ('Subaru', 'Forester', 2022, 1),
+                                                           ('Kia', 'Sportage', 2024, 1),
+                                                           ('Mazda', 'CX-5', 2023, 1),
+                                                           ('Land Rover', 'Evoque', 2022, 1),
+                                                           ('Porsche', 'Macan', 2024, 1),
+                                                           ('Lexus', 'UX 250h', 2023, 1),
+                                                           ('Mitsubishi', 'Outlander', 2022, 1),
+                                                           ('Caoa Chery', 'Tiggo 7 Pro', 2024, 1);
+
+-- 20 Veículos para o Catálogo: SEDAN (catalog_id = 2)
+INSERT INTO tb_vehicle (Name, Model, Year, catalog_id) VALUES
+                                                           ('Toyota', 'Corolla', 2023, 2),
+                                                           ('Honda', 'Civic', 2024, 2),
+                                                           ('Chevrolet', 'Onix Plus', 2022, 2),
+                                                           ('Hyundai', 'HB20S', 2023, 2),
+                                                           ('Volkswagen', 'Virtus', 2024, 2),
+                                                           ('Nissan', 'Versa', 2022, 2),
+                                                           ('BMW', '320i', 2023, 2),
+                                                           ('Audi', 'A4', 2024, 2),
+                                                           ('Mercedes-Benz', 'C 180', 2022, 2),
+                                                           ('Kia', 'Cerato', 2023, 2),
+                                                           ('Subaru', 'WRX', 2024, 2),
+                                                           ('Lexus', 'ES 350', 2022, 2),
+                                                           ('Volkswagen', 'Jetta', 2023, 2),
+                                                           ('Hyundai', 'Elantra', 2024, 2),
+                                                           ('Toyota', 'Camry', 2022, 2),
+                                                           ('Honda', 'Accord', 2023, 2),
+                                                           ('Chevrolet', 'Cruze', 2021, 2),
+                                                           ('Volvo', 'S60', 2024, 2),
+                                                           ('BYD', 'Seal', 2024, 2),
+                                                           ('Tesla', 'Model 3', 2023, 2);
+
+-- 20 Veículos para o Catálogo: COUPE (catalog_id = 3)
+INSERT INTO tb_vehicle (Name, Model, Year, catalog_id) VALUES
+                                                           ('Porsche', '911 Carrera', 2024, 3),
+                                                           ('Ford', 'Mustang GT', 2023, 3),
+                                                           ('Chevrolet', 'Camaro SS', 2022, 3),
+                                                           ('BMW', 'M4', 2024, 3),
+                                                           ('Audi', 'RS5', 2023, 3),
+                                                           ('Mercedes-AMG', 'C 63 Coupe', 2022, 3),
+                                                           ('Nissan', 'Z', 2024, 3),
+                                                           ('Subaru', 'BRZ', 2023, 3),
+                                                           ('Toyota', 'GR86', 2022, 3),
+                                                           ('Jaguar', 'F-Type', 2024, 3),
+                                                           ('Lexus', 'RC 350', 2023, 3),
+                                                           ('Maserati', 'GranTurismo', 2022, 3),
+                                                           ('Aston Martin', 'Vantage', 2024, 3),
+                                                           ('Ferrari', 'Roma', 2023, 3),
+                                                           ('McLaren', 'Artura', 2022, 3),
+                                                           ('Alpine', 'A110', 2024, 3),
+                                                           ('Dodge', 'Challenger', 2023, 3),
+                                                           ('Porsche', '718 Cayman', 2022, 3),
+                                                           ('Audi', 'TT RS', 2023, 3),
+                                                           ('BMW', 'Z4', 2024, 3);
+
+-- 20 Veículos para o Catálogo: COMPACT (catalog_id = 4)
+INSERT INTO tb_vehicle (Name, Model, Year, catalog_id) VALUES
+                                                           ('Chevrolet', 'Onix', 2023, 4),
+                                                           ('Hyundai', 'HB20', 2024, 4),
+                                                           ('Volkswagen', 'Polo', 2022, 4),
+                                                           ('Fiat', 'Argo', 2023, 4),
+                                                           ('Renault', 'Kwid', 2024, 4),
+                                                           ('Peugeot', '208', 2022, 4),
+                                                           ('Citroen', 'C3', 2023, 4),
+                                                           ('Toyota', 'Yaris', 2024, 4),
+                                                           ('Honda', 'City Hatch', 2022, 4),
+                                                           ('Fiat', 'Mobi', 2023, 4),
+                                                           ('Kia', 'Rio', 2024, 4),
+                                                           ('Mini', 'Cooper', 2022, 4),
+                                                           ('Suzuki', 'Swift', 2023, 4),
+                                                           ('Audi', 'A1', 2024, 4),
+                                                           ('Volkswagen', 'Gol', 2022, 4),
+                                                           ('Ford', 'Ka', 2021, 4),
+                                                           ('Renault', 'Sandero', 2023, 4),
+                                                           ('BYD', 'Dolphin Mini', 2024, 4),
+                                                           ('GWM', 'Ora 03', 2024, 4),
+                                                           ('Fiat', '500e', 2023, 4);
+
+-- 20 Veículos para o Catálogo: PICKUP (catalog_id = 5)
+INSERT INTO tb_vehicle (Name, Model, Year, catalog_id) VALUES
+                                                           ('Fiat', 'Strada', 2023, 5),
+                                                           ('Fiat', 'Toro', 2024, 5),
+                                                           ('Volkswagen', 'Saveiro', 2022, 5),
+                                                           ('Toyota', 'Hilux', 2023, 5),
+                                                           ('Chevrolet', 'S10', 2024, 5),
+                                                           ('Ford', 'Ranger', 2022, 5),
+                                                           ('Nissan', 'Frontier', 2023, 5),
+                                                           ('Mitsubishi', 'L200 Triton', 2024, 5),
+                                                           ('RAM', '1500', 2022, 5),
+                                                           ('Ford', 'Maverick', 2023, 5),
+                                                           ('Chevrolet', 'Montana', 2024, 5),
+                                                           ('Renault', 'Oroch', 2022, 5),
+                                                           ('Jeep', 'Gladiator', 2023, 5),
+                                                           ('RAM', 'Rampage', 2024, 5),
+                                                           ('GWM', 'Poer', 2024, 5),
+                                                           ('Ford', 'F-150', 2023, 5),
+                                                           ('RAM', '3500', 2022, 5),
+                                                           ('Volkswagen', 'Amarok', 2023, 5),
+                                                           ('Hyundai', 'Santa Cruz', 2024, 5),
+                                                           ('BYD', 'Shark', 2024, 5);
